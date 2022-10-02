@@ -46,7 +46,7 @@ const Todo = () => {
       <div>
          {
             tasks.map((task,index)=>(
-                <ListdTask tasks={task} index={index} removeItems={removeItems} />
+                <ListTask tasks={task} index={index} removeItems={removeItems} />
             ))
          }
       </div>
